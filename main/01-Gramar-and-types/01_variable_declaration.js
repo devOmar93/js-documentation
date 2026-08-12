@@ -1,7 +1,7 @@
 /**** DECLARACIÓN DE VARIABLES E INICIALIZACIÓN ****/
 
 /** En una instrucción como let x = 42, la parte "let x" se llama declaración
-    y la otra parte "= 42" se llama inicializador . La declaración permite acceder
+    y la otra parte "= 42" se llama inicializador. La declaración permite acceder
     a la variable más adelante en el código sin lanzar una excepción ReferenceError,
     mientras que el inicializador asigna un valor a la variable. En las declaraciones
     var y let, el inicializador es opcional. Si una variable se declara sin un inicializador,
@@ -19,14 +19,14 @@ let
    La inicialización es obligatario */
 const
 
-// Ejemplos de declaraciones de variables sin inicializarlas
+// *** Ejemplos de declaraciones de variables sin inicializarlas *** //
 var name;
 let surname;
 
 console.log('name:', name);
 console.log('surname:', surname);
 
-// Ejemplos de declaraciones de variables e inicializadas
+// *** Ejemplos de declaraciones de variables e inicializadass *** //
 var age = 20;
 let nationality = 'Peruano';
 const address = 'Calle Entelgy piso 14';
@@ -36,7 +36,7 @@ console.log('nationality:', nationality);
 console.log('address:', address);
 
 
-// Bonus: Puedes declarar variables para desempaquetar valores
+// Bonus: Puedes declarar variables para extraer valores
 // usando la sintaxis de desestructuración.
 
 // Ejemplo:
