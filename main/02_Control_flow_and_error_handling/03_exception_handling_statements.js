@@ -8,8 +8,8 @@ contienen información útil como el mensaje y el stack trace.
 
 try {
   throw new Error("Algo salió mal");
-} catch (error) {
-  console.log(error.message);
+} catch (e) {
+  console.log(e.message);
 }
 
 /* 
@@ -67,10 +67,12 @@ console.log(f());
 function f() {
   try {
     throw new Error("Error");
+    return "Hola"
   } finally {
     return false;
   }
 }
+console.log(f());
 
 /* Propiedades útiles de un error 
 name → tipo de error.
@@ -81,6 +83,7 @@ try {
 } catch (e) {
   console.log(e.name);
   console.log(e.message);
+  console.log(e.stack);
 }
 
 /* ¿Se ejecuta la línea después del throw? */
@@ -90,6 +93,8 @@ try {
   console.log("B");
 } catch (e) {
   console.log("C");
+} finally{
+  console.log("D");
 }
 
 /* 

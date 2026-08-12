@@ -14,6 +14,7 @@ y define un alcance para variables declaradas con let y const
   let x = 10;
   console.log(x);
 }
+console.log("fuera", x);
 
 {
   const x = 20;
@@ -28,5 +29,12 @@ persisten más allá del propio bloque.
 var x = 1;
 {
   var x = 2;
+}
+console.log(x);
+
+/* ejemplo con let */
+let x = 1;
+{
+  let x = 2;
 }
 console.log(x);

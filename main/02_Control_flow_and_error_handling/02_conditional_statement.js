@@ -46,7 +46,7 @@ console.log(mensaje);
 ** En general, es una buena práctica utilizar siempre sentencias de bloque, 
 especialmente al anidar if sentencias. Significa que es recomendable poner siempre 
 las llaves {}, incluso cuando el bloque contiene una sola instrucción.
-** Es una buena práctica no tener if...elseuna asignación x = y omo condición
+** Es una buena práctica no tener if...else una asignación x = y como condición
 */
 
 /* 
@@ -59,6 +59,13 @@ las llaves {}, incluso cuando el bloque contiene una sola instrucción.
 >=   // Mayor o igual que
 <=   // Menor o igual que
 */
+
+let uno = 1;
+let dos = "1";
+
+if(uno !== dos){
+  console.log("ingrese")
+}
 
 /* falsy values / valores falsos */
 /* 
@@ -98,12 +105,25 @@ Si sigue siendo objeto, intenta toString().
 Una vez obtenidos los primitivos:
 Aplica nuevamente las reglas anteriores hasta llegar a tipos comparables.
 */
+const b = new Boolean(false);
+console.log(b.valueOf());
 
-console.log(null==undefined)
+const c = {
+  name: "Omar",
+  edad: 40,
+}
+/* 
+{ name: 'Omar', edad: 40 }
+[object Object] 
+*/
+console.log(c.valueOf());
+console.log(c.toString());
+
+console.log(null==undefined);
 
 /* 
 Una switch instrucción permite que un programa evalúe una expresión e
-intente hacer coincidir el valor de la expresión con una caseetiqueta. 
+intente hacer coincidir el valor de la expresión con una case etiqueta. 
 Si se encuentra una coincidencia, el programa ejecuta la instrucción asociada.
 */
 
