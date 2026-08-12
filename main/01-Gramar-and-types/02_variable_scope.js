@@ -70,6 +70,13 @@ if (true) {
   console.log("name:", name);
   console.log("surname:", surname);
 }
+/**
+    Las líneas siguientes mostrarán un error de referencia, dado que esas variables
+    estan declaradas en bloque (entre llaves {}); por ende, al querer mostrarlas
+    lanzará un error de referencia.
+**/
+console.log("name:", name);
+console.log("surname:", surname);
 
 // *** Ejemplo del ambito global para las variables creadas con var *** //
 
