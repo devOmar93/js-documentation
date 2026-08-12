@@ -42,6 +42,7 @@ function show() {
   console.log("name:", name);
   console.log("surname:", surname);
 }
+show();
 
 // *** Ejemplo de ambito local *** //
 function showData() {
@@ -78,9 +79,9 @@ if (true) {
 console.log("name:", name);
 console.log("surname:", surname);
 
-// *** Ejemplo del ambito global para las variables creadas con var *** //
+// *** Ejemplo de declaración global de una variable var dentro de un bloque *** //
 
-// Funciona fuera del bloque
+// La variable name funciona fuera del bloque
 if (true) {
   var name = "Omar";
   console.log("name:", name);
