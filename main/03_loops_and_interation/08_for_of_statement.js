@@ -1,6 +1,6 @@
 /* 
 La for...of instrucción crea un bucle que itera sobre objetos iterables 
-(incluidos Array, Map, Set, argumentsobjeto, etc.), 
+(incluidos Array, Map, Set, arguments objeto, etc.), 
 invocando un gancho de iteración personalizado con instrucciones que se 
 ejecutarán para el valor de cada propiedad distinta. 
 */
@@ -11,6 +11,7 @@ for (variable of iterable)
 /* Ejemplo */
 const arr = [3, 5, 7];
 arr.foo = "hello";
+console.log(arr)
 
 for (const i in arr) {
   console.log(i);

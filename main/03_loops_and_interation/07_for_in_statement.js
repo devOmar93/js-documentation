@@ -27,7 +27,7 @@ for (const propiedad in car) {
 /* Problema al usar for...in con Arrays */
 /* 
 Aunque pueda resultar tentador utilizar esto como una forma de iterar sobre 
-Array los elementos, la for...ininstrucción devolverá el nombre de las 
+Array los elementos, la for...in instrucción devolverá el nombre de las 
 propiedades definidas por el usuario, además de los índices numéricos.
 */
 
