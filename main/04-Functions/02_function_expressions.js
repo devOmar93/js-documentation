@@ -16,7 +16,7 @@ const square = function (number) {
 
 console.log(square(4)); // 16
 
-// *** Ejemplo con nombre *** //
+// *** Ejemplo con nombre y recursiva *** //
 const factorial = function fac(n) {
   return n < 2 ? 1 : n * fac(n - 1);
 };
