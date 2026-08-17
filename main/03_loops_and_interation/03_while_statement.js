@@ -1,5 +1,5 @@
 /* 
-Una whileinstrucción ejecuta sus instrucciones mientras una condición específica se evalúe como verdadera true.
+Una while instrucción ejecuta sus instrucciones mientras una condición específica se evalúe como verdadera true.
 **Primero se evalúa la condición.
 **Si la condición es true, se ejecuta el código dentro del bucle.
 **Al terminar, se vuelve a evaluar la condición.
@@ -29,7 +29,7 @@ while (n < 3) {
 /* 
 Evite los bucles infinitos. Asegúrese de que la condición dentro de un bucle se cumpla 
 eventualmente false; de ​​lo contrario, ¡el bucle nunca terminará! 
-Las instrucciones en el siguiente whilebucle se ejecutan indefinidamente porque 
+Las instrucciones en el siguiente while bucle se ejecutan indefinidamente porque 
 la condición nunca se cumple false: 
 */
 // Infinite loops are bad!
