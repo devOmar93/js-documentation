@@ -31,7 +31,7 @@
 // *** Ejemplos mediante una expresión de función  *** //
 const value = (function () {
   // Do something
-  console.log("Holaaa");
+  console.log("Hola!");
 })();
 
 const config = (function () {
