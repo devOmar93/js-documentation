@@ -8,16 +8,16 @@ a bit y devuelve un número normal.
 
 //& (AND)
 //Devuelve 1 solo cuando ambos bits son 1.
-console.log(5 & 3)
+console.log(5 & 3) //101 + 011 = 001 = 1
 
 //| (OR)
 //Devuelve 1 cuando al menos uno de los bits es 1.
-console.log(5 | 3)
+console.log(5 | 3)  //101 + 011 = 111 = 7
 
 //^ (XOR)
 //Devuelve 1 cuando los bits son diferentes.
-console.log(5 ^ 3)
+console.log(5 ^ 3) //110
 
 //~ (NOT)
 //Invierte todos los bits (0 → 1, 1 → 0).
-console.log(~5)
+console.log(~5) //010 //-(n + 1)

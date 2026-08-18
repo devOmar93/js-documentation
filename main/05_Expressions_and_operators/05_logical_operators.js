@@ -1,7 +1,7 @@
 /* 
 && devuelve el primer valor falsy o el último valor si todos son truthy.
 || devuelve el primer valor truthy.
-?? devuelve el primer valor que no sea null ni undefined.
+?? devuelve el primer valor que no sea null ni undefined. // Operador de coalescencia nula (Nullish Coalescing)
 ! sí devuelve siempre un booleano (true o false).
 */
 

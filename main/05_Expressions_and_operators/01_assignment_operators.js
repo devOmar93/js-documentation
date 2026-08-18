@@ -4,7 +4,7 @@ una acción como asignar datos a una variable o evaluando
 operaciones mediante distintos operadores como asignación, aritméticos, lógicos y de comparación.
 */
 
-const x = 1 + 2 * 3;
+const x = (1 + 2 )* 3;
 const y = 2 * 3 + 1;
 console.log(x, y)
 
@@ -40,7 +40,7 @@ izquierdo en función del valor de su operando derecho
 /* 
 El operador de asignación simple es igual ( =), que asigna el valor de 
 su operando derecho a su operando izquierdo. Es decir, 
-x = f()es una expresión de asignación que asigna el valor de f()a x
+x = f() es una expresión de asignación que asigna el valor de f() a x
 */
 
 /* Nombre	        operador de taquigrafía	    Significado
@@ -63,6 +63,8 @@ obj.x = 3;
 console.log(obj.x);
 console.log(obj);
 
+obj['y'] = 4;
+console.log(obj);
 /* ************** */
 
 const val = 0;
@@ -99,8 +101,9 @@ x = g();
 /******************************** */
 y = x = f()
 //es equivalente a 
-y = (x = f())
-/* porque el operador de asignación =es asociativo por la derecha . 
+console.log(y = (x = 2))
+console.log(x)
+/* porque el operador de asignación = es asociativo por la derecha . 
 Sin embargo, se evalúa de izquierda a derecha */
 
 /* Evite las cadenas de asignación */
