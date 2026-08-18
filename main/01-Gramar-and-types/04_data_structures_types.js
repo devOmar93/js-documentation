@@ -5,12 +5,12 @@
 
     * Siete tipos de datos que son primitivos:
 
-        - Booleano  : truey false.
+        - Booleano  : true y false.
         - null      : Una palabra clave especial que denota un valor nulo.
                       (Debido a que JavaScript distingue entre mayúsculas y minúsculas,
-                      nullno es lo mismo que Null, NULL, ni ninguna otra variante).
+                      null no es lo mismo que Null, NULL, ni ninguna otra variante).
         - indefinido: Una propiedad de nivel superior cuyo valor no está definido.
-        - Número    : Un número entero o de punto flotante. Por ejemplo: 42o 3.14159.
+        - Número    : Un número entero o de punto flotante. Por ejemplo: 42 o 3.14159.
         - BigInt    : Un entero con precisión arbitraria. Por ejemplo: 9007199254740992n.
         - Cadena    : Una secuencia de caracteres que representan un valor de texto. Por ejemplo: "Howdy".
         - Símbolo   : Un tipo de dato cuyas instancias son únicas e inmutables.
@@ -36,9 +36,6 @@ const datoUndefined = undefined;
 
 //Número
 const datoNumber = 20;
-
-//Booleano
-const state = true;
 
 //Cadena
 const datoString = "Hola mundo";
@@ -68,7 +65,7 @@ console.log("answer fin:", answer);
 /** Números y el operador '+' **/
 
 /**
-    En expresiones que involucran valores numéricos y de cadena con el +operador,
+    En expresiones que involucran valores numéricos y de cadena con el + operador,
     JavaScript convierte los valores numéricos en cadenas.
 **/
 
@@ -77,6 +74,7 @@ x = "The answer is " + 42; // "The answer is 42"
 y = 42 + " is the answer"; // "42 is the answer"
 z = "37" + 7; // "377"
 let numero = "37" - 7;
+console.log(typeof numero);
 console.log("x:", x);
 console.log("y:", y);
 console.log("z:", z);
