@@ -29,11 +29,11 @@
 
 // *** Ejemplo incremetar contador *** //
 function crearContador() {
-  let contador = 0;
+  let contador = 0; // Tiene que seguir existiendo ¿Cómo lo hago? Lo guardo en memoria
 
   // Función declarada
   function incrementar() {
-    contador++;
+    contador = contador + 10;
     return contador;
   }
 
@@ -90,3 +90,18 @@ pet.setSex("male");
 
 console.log(pet.getSex()); // male
 console.log(pet.getName()); // Oliver
+
+// *** Ejemplo actualizar lista de estados *** //
+function state() {
+  let listEstate = ["ACTIVO", "INACTIVO"];
+  function updateState(newState) {
+    listEstate.push(newState);
+    return listEstate;
+  }
+  return updateState;
+}
+
+const actionState = state();
+
+console.log(actionState("PENDIENTE"));
+console.log(actionState("ANULADO"));

@@ -2,7 +2,7 @@
 
 /**
     Una definición de función (también llamada declaración de función o instrucción de función )
-    consta de la functionpalabra clave, seguida de:
+    consta de la function palabra clave, seguida de:
 
         - El nombre de la función.
         - Una lista de parámetros para la función, encerrados entre paréntesis y separados por comas.
