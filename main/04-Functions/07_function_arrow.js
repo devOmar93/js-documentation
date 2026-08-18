@@ -42,3 +42,34 @@ function Person() {
 }
 
 const p = new Person();
+
+
+// Ejemplo del this propio de una función
+const persona = {
+  nombre: "Juan",
+
+  saludar: function () {
+    console.log(this.nombre);
+
+    setTimeout(function () {
+      console.log(this.nombre);
+    }, 1000);
+  }
+};
+
+persona.saludar();
+
+// Ejemplo del this heredado de una función flecha
+const persona = {
+  nombre: "Juan",
+
+  saludar: function () {
+    console.log(this.nombre);
+
+    setTimeout(() => {
+      console.log(this.nombre);
+    }, 1000);
+  }
+};
+
+persona.saludar();
