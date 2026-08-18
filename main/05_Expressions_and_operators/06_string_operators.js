@@ -6,6 +6,7 @@ let texto = "Hola";
 texto += " Mundo"
 console.log(texto);
 
+//ERROR
 let texto = "Hola";
-texto =+ " Mundo"
+texto =+ "Mundo"
 console.log(texto);

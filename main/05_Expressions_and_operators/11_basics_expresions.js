@@ -10,7 +10,7 @@ const persona = {
   }
 };
 
-persona.saludar();
+console.log(persona.saludar())
 
 /* 
 Operador de agrupación ()
@@ -28,11 +28,12 @@ persona.nombre;
 persona["nombre"];
 
 /* 
-Encadenamiento opcional ?.
+Encadenamiento opcional ?. Optional Chaining Operator
 Evita errores cuando un valor puede ser null o undefined.
 */
-
-usuario?.nombre;
+const usuario = null;
+const nombre = usuario?.nombre;
+console.log(nombre);
 
 /* 
 new
@@ -59,3 +60,6 @@ class Perro extends Animal {
     console.log("Guau");
   }
 }
+
+const perro = new Perro();
+perro.hablar();
