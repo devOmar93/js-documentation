@@ -1,8 +1,8 @@
 /** Objeto de fecha **/
 
 /**
-    JavaScript no tiene un tipo de dato de fecha. Sin embargo, puedes usar el Dateobjeto
-    y sus métodos para trabajar con fechas y horas en tus aplicaciones. El Dateobjeto tiene
+    JavaScript no tiene un tipo de dato de fecha. Sin embargo, puedes usar el Date objeto
+    y sus métodos para trabajar con fechas y horas en tus aplicaciones. El Date objeto tiene
     una gran cantidad de métodos para establecer, obtener y manipular fechas. No tiene propiedades.
 
     JavaScript maneja las fechas de forma similar a Java. Ambos lenguajes comparten muchos métodos

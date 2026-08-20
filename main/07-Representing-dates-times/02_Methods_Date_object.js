@@ -3,10 +3,10 @@
 /**
     Los Datemétodos de objeto para manejar fechas y horas se dividen en estas categorías generales:
 
-        - Métodos "set", para establecer valores de fecha y hora en Dateobjetos.
-        - Métodos "get", para obtener valores de fecha y hora de Datelos objetos.
-        - Métodos "to", para devolver valores de cadena desde Dateobjetos.
-        - Métodos parse y UTC para analizar Datecadenas de texto.
+        - Métodos "set", para establecer valores de fecha y hora en Date objetos.
+        - Métodos "get", para obtener valores de fecha y hora de Date los objetos.
+        - Métodos "to", para devolver valores de cadena desde Date objetos.
+        - Métodos parse y UTC para analizar Date cadenas de texto.
 
     Con los métodos "get" y "set" se pueden obtener y establecer segundos, minutos, horas, día del mes,
     día de la semana, meses y años por separado. Existe un getDaymétodo que devuelve el día de la semana,
@@ -34,7 +34,7 @@ let daysLeft = (endYear.getTime() - today.getTime()) / msPerDay;
 daysLeft = Math.round(daysLeft); // Returns days left in the year
 console.log(daysLeft);
 
-// *** Ejemplola la función JSClock()devuelve la hora en formato de reloj digital. *** //
+// *** Ejemplola la función JSClock() devuelve la hora en formato de reloj digital. *** //
 function JSClock() {
   const time = new Date();
   const hour = time.getHours();
