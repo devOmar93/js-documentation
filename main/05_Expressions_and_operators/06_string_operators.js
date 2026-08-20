@@ -7,6 +7,6 @@ texto += " Mundo"
 console.log(texto);
 
 //ERROR
-let texto = "Hola";
-texto =+ "Mundo"
-console.log(texto);
+let texto_hola = "Hola";
+texto_hola =+ "Mundo"
+console.log(texto_hola);

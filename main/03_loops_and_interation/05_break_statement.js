@@ -32,8 +32,8 @@ switch (opcion) {
 }
 
 //Sin break
-const opcion = 2;
-switch (opcion) {
+const opcion1 = 2;
+switch (opcion1) {
   case 2:
     console.log("Opción 2");
 

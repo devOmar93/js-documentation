@@ -34,6 +34,6 @@ console.log(
 );
 
 //con literals
-const five = 5;
-const ten = 10;
-console.log(`Fifteen is ${five + ten} and not ${2 * five + ten}.`);
+const five1 = 5;
+const ten1 = 10;
+console.log(`Fifteen is ${five1 + ten1} and not ${2 * five1 + ten1}.`);

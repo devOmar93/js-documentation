@@ -1,5 +1,5 @@
 /* 
-El objeto integrado Numbertiene propiedades para constantes numéricas, como valor máximo, 
+El objeto integrado Number tiene propiedades para constantes numéricas, como valor máximo, 
 no es un número e infinito. 
 No se pueden cambiar los valores de estas propiedades y se utilizan de la siguiente manera:
 */
@@ -15,7 +15,7 @@ console.log(Number.EPSILON);           // 2.220446049250313e-16
 console.log(Number.MIN_SAFE_INTEGER);  // -9007199254740991
 console.log(Number.MAX_SAFE_INTEGER);  // 9007199254740991
 
-// MÉTODOS ESTÁTICOS
+// MÉTODOS ESTÁTICOS - metodos que no le pertenecen al objeto sino a la clase
 
 console.log(Number.parseFloat("12.34"));         // 12.34
 console.log(Number.parseInt("12.34"));           // 12

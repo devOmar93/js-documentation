@@ -3,14 +3,14 @@ this
 Hace referencia al objeto que está ejecutando el método.
 */
 
-const persona = {
+const persona_ana = {
   nombre: "Ana",
   saludar() {
     return this.nombre;
   }
 };
 
-console.log(persona.saludar())
+console.log(persona_ana.saludar())
 
 /* 
 Operador de agrupación ()

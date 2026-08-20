@@ -22,15 +22,15 @@ x++ // postfijo
 typeof x // prefijo
 */
 
-let x = 5;
+let xy = 5;
 
-console.log(x++);
-console.log(x);
+console.log(xy++);
+console.log(xy);
 
-let x = 5;
+let xyz = 5;
 
-console.log(++x);
-console.log(x);
+console.log(++xyz);
+console.log(xyz);
 
 /* 
 Un operador de asignación asigna un valor a su operando 
@@ -82,9 +82,9 @@ la construcción de literales de matrices y objetos.
 /* Ejemplo sin destructurar */
 const foo = ["one", "two", "three"];
 
-const one = foo[0];
-const two = foo[1];
-const three = foo[2];
+const one_number = foo[0];
+const two_number = foo[1];
+const three_number = foo[2];
 
 /* Ejemplo con destructuracion */
 const [one, two, three] = foo;
@@ -95,8 +95,8 @@ En general, las asignaciones se utilizan dentro de una declaración de variable
 */
 
 /* Si una expresión devuelve un valor y nadie lo usa, se dice que ese valor se descarta. */
-let x = f();
-x = g();
+let exp = f();
+exp = g();
 
 /******************************** */
 y = x = f()

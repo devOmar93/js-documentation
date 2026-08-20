@@ -23,21 +23,21 @@ console.log(10 % 3)
 let x = 3;
 ++x;
 
-let x = 3;
-x++;
+let y = 3;
+y++;
 
 //Operador decremento (--)
 //Resta 1 a una variable.
-let x = 3;
---x;
+let z = 3;
+--z;
 
-let x = 3;
-x--;
+let a = 3;
+a--;
 
 //Negación unaria (-)
 //Cambia el signo del número.
-let x = 3;
-console.log(-x)
+let b = 3;
+console.log(-b)
 console.log(-(-5))
 
 //Unario más (+)

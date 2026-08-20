@@ -15,9 +15,9 @@ if (edad >= 18) {
   console.log("Eres mayor de edad");
 }
 /* --------------------------------- */
-let edad = 16;
+let edad1 = 16;
 
-if (edad >= 18) {
+if (edad1 >= 18) {
   console.log("Eres mayor de edad");
 } else {
   console.log("Eres menor de edad");
@@ -33,9 +33,9 @@ if (nota >= 90) {
   console.log("Desaprobado");
 }
 /* --------------------------------- */
-let edad = 20;
+let edad2 = 20;
 
-let mensaje = edad >= 18
+let mensaje = edad2 >= 18
   ? "Mayor de edad"
   : "Menor de edad";
 
@@ -105,8 +105,8 @@ Si sigue siendo objeto, intenta toString().
 Una vez obtenidos los primitivos:
 Aplica nuevamente las reglas anteriores hasta llegar a tipos comparables.
 */
-const b = new Boolean(false);
-console.log(b.valueOf());
+const b1 = new Boolean(false);
+console.log(b1.valueOf());
 
 const c = {
   name: "Omar",
