@@ -104,16 +104,16 @@ console.log("multiplication", multiplication);
 // *** Ejemplos *** //
 
 //parseInt
-let resultado = "200.20";
-resultado = parseInt(resultado); // 200
-console.log("resultado", resultado);
+let result = "200.20";
+result = parseInt(result); // 200
+console.log("result", result);
 
 //parseFloat
-let resultado = "200.256";
-resultado = parseFloat(resultado); // 200.256
-console.log("resultado", resultado);
+let result2 = "200.256";
+result2 = parseFloat(result2); // 200.256
+console.log("result2", result2);
 
 //Number
-let resultado = "200.255611";
-resultado = Number(resultado); // 200.255611
-console.log("resultado", resultado);
+let result3 = "200.255611";
+result3 = Number(result3); // 200.255611
+console.log("result3", result3);

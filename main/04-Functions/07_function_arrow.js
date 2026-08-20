@@ -37,12 +37,10 @@ function Person() {
 
   setInterval(() => {
     this.age++;
-    console.log('age:', this.age); // `this` properly refers to the person object
+    console.log("age:", this.age); // `this` properly refers to the person object
   }, 1000);
 }
-
 const p = new Person();
-
 
 // Ejemplo del this propio de una función
 const persona = {
@@ -54,13 +52,13 @@ const persona = {
     setTimeout(function () {
       console.log(this.nombre);
     }, 1000);
-  }
+  },
 };
 
 persona.saludar();
 
 // Ejemplo del this heredado de una función flecha
-const persona = {
+const persona2 = {
   nombre: "Juan",
 
   saludar: function () {
@@ -69,7 +67,40 @@ const persona = {
     setTimeout(() => {
       console.log(this.nombre);
     }, 1000);
-  }
+  },
 };
 
+persona.saludar();
+
+const persona3 = {
+  nombre: "Juan",
+
+  saludar() {
+    console.log(this.nombre);
+
+    function show() {
+      console.log(this.nombre);
+    }
+    show();
+    /*
+    const otraFuncion = function() {
+      console.log(this.nombre);
+    };*/
+    //otraFuncion();
+  },
+};
+persona.saludar();
+
+const persona4 = {
+  nombre: "Juan",
+
+  saludar() {
+    console.log(this.nombre);
+
+    const otraFuncion = () => {
+      console.log(this.nombre);
+    };
+    otraFuncion();
+  },
+};
 persona.saludar();
