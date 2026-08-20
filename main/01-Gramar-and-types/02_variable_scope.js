@@ -26,20 +26,20 @@
 
 // *** Ejemplo de ambito global *** //
 var age = 20;
-let name = "Omar";
+let personName = "Omar";
 const surname = "Perez";
 
 // Funciona dentro del bloque
-if (name) {
+if (personName) {
   console.log("age:", age);
-  console.log("name:", name);
+  console.log("personName:", personName);
   console.log("surname:", surname);
 }
 
 // Funciona dentro de una función
 function show() {
   console.log("age:", age);
-  console.log("name:", name);
+  console.log("personName:", personName);
   console.log("surname:", surname);
 }
 show();
@@ -47,10 +47,10 @@ show();
 // *** Ejemplo de ambito local *** //
 function showData() {
   var age = 20;
-  let name = "Omar";
+  let personName = "Omar";
   const surname = "Perez";
   console.log("age:", age);
-  console.log("name:", name);
+  console.log("personName:", personName);
   console.log("surname:", surname);
 }
 
@@ -61,14 +61,14 @@ showData();
     lanzará un error de referencia.
 **/
 console.log("age:", age);
-console.log("name:", name);
+console.log("personName:", personName);
 console.log("surname:", surname);
 
 // *** Ejemplo de ambito bloque (solo funciona para let y const) *** //
 if (true) {
-  let name = "Omar";
+  let personName = "Omar";
   const surname = "Canales";
-  console.log("name:", name);
+  console.log("personName:", personName);
   console.log("surname:", surname);
 }
 /**
@@ -76,14 +76,14 @@ if (true) {
     estan declaradas en bloque (entre llaves {}); por ende, al querer mostrarlas
     lanzará un error de referencia.
 **/
-console.log("name:", name);
+console.log("personName:", personName);
 console.log("surname:", surname);
 
 // *** Ejemplo de declaración global de una variable var dentro de un bloque *** //
 
-// La variable name funciona fuera del bloque
+// La variable color funciona fuera del bloque
 if (true) {
-  var name = "Omar";
-  console.log("name:", name);
+  var color = "Red";
+  console.log("color:", color);
 }
-console.log('name:', name);
+console.log("color:", color);

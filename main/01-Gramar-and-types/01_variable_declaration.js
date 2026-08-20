@@ -20,10 +20,10 @@ let
 const
 
 // *** Ejemplos de declaraciones de variables sin inicializarlas *** //
-var name;
+var personName;
 let surname;
 
-console.log('name:', name);
+console.log('personName:', personName);
 console.log('surname:', surname);
 
 // *** Ejemplos de declaraciones de variables e inicializadass *** //
@@ -43,7 +43,7 @@ console.log('address:', address);
 
 // Creamos un objeto llamado "persona" para realizar el ejemplo
 const persona = {
-    name: 'Omar',
+    personName: 'Omar',
     surname: 'Condori',
     phoneNumber: '987897899'
 }

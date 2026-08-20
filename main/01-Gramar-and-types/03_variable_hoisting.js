@@ -13,18 +13,18 @@
 **/
 
 // *** Ejemplo hoisting para var *** //
-console.log("name:", name);
-var name = "Omar";
+console.log("personName:", personName);
+var personName = "Omar";
 
 // *** Ejemplo hoisting para funciones declaradas *** //
 show();
 function show() {
-  const name = "Juan";
-  console.log("hola", name);
+  const personName = "Juan";
+  console.log("hola", personName);
 }
 
 // *** Ejemplo temporal dead zone *** //
-console.log("hola", name);
+console.log("hola", personName);
 if (true) {
-  const name = "Juan";
+  const personName = "Juan";
 }
