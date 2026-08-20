@@ -26,14 +26,14 @@ function multiply() {
 console.log(multiply()); // 60
 
 // Función anidada
-const name = "Chamakh";
+const personName = "Omar";
 function getScore() {
   const num1 = 2;
   const num2 = 3;
 
   function add() {
     const num3 = 5;
-    return `${name} scored ${num1 + num2 + num3}`;
+    return `${personName} scored ${num1 + num2 + num3}`;
   }
   // console.log('num3', num3); //Error de referencia de num3
   return add();
